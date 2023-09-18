@@ -10,7 +10,6 @@ import CartItem from "./components/CartItem"
 const App = () => {
   return (
      <div className='overflow-hidden'>
-      react app;
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
