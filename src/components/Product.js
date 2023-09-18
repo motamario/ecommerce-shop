@@ -10,7 +10,7 @@ const Product = ({ product }) => {
   const { addToCart } = useContext(CartContext);
   console.log(product);
   //destructure product
-  const { id, image, price, rating, title, category, description } = product;
+  const { id, image, price, title, category } = product;
   return (
     <div className=''>
 
